@@ -42,3 +42,13 @@ const users = [
 		age:20
 	}
 	];
+
+const scoreFilter= (users)=>{
+    let result = users.filter((score)=> score.scores >= 85)
+    return result
+}
+
+console.log(scoreFilter(users))
+
+
+
